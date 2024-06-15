@@ -6,8 +6,8 @@ const Contact = () => {
     <Section>
       <h1>Contact Me</h1>
       <p>Your contact details here.</p>
-      <form name='contactMe' method='POST' netlify onSubmit='submit' action='/' data-netlify-honeypot="pot">
-        <input type='hidden' name='pot'  />
+      <form name='contactMe' method='POST' netlify >
+        
         <label for="name"><input type="text" id="name" name="name" /> name </label>
         
         <label for ="contactNo"> <input type="text" id="contactNo" name="phone" /> contact no </label>
