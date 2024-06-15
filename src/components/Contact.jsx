@@ -6,7 +6,7 @@ const Contact = () => {
     <Section>
       <h1>Contact Me</h1>
       <p>Your contact details here.</p>
-      <form name='contactMe' method='POST' netlify onSubmit='submit' action='/sus/' data-netlify-honeypot="pot">
+      <form name='contactMe' method='POST' netlify onSubmit='submit' action='/' data-netlify-honeypot="pot">
         <input type='hidden' name='pot'  />
         <label for="name"><input type="text" id="name" name="name" /> name </label>
         
