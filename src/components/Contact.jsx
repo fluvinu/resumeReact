@@ -8,14 +8,14 @@ const Contact = () => {
       <p>Your contact details here.</p>
       <form name='contactMe' method='POST' netlify onSubmit='submit' action='/sus/' data-netlify-honeypot="pot">
         <input type='hidden' name='pot'  />
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" />
-        <label for ="contactNo"> contact no </label>
-        <input type="text" id="contactNo" name="phone" />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" />
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
+        <label for="name"><input type="text" id="name" name="name" /> name </label>
+        
+        <label for ="contactNo"> <input type="text" id="contactNo" name="phone" /> contact no </label>
+        
+        <label for="email"> <input type="email" id="email" name="email" />Email:</label>
+        
+        <label for="message"> <textarea id="message" name="message"></textarea> Message:</label>
+        
         <button type="submit">Send</button>
       </form>
     </Section>
